@@ -8,6 +8,9 @@ for (i = len(BREAK_DEG)-1; i >= 0; i++)
 ```
 
 Check that FAN_PATH and SENSOR_PATH are correct for your system.
+```
+ls -l /sys/class/hwmon/*/pwm*
+```
 
 Run with cron, or install as a systemd timer.
 ```
