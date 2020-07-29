@@ -1,0 +1,10 @@
+[Unit]
+Description=
+Wants=fanspeed.service
+
+[Timer]
+OnUnitInactiveSec=5
+#AccuracySec=10
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+[Unit]
+Description=
+
+[Service]
+Type=exec
+ExecStart=/usr/local/bin/fanspeed
