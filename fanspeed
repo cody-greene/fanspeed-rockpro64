@@ -19,8 +19,8 @@ SENSOR_PATH = "/sys/class/thermal/thermal_zone0/temp"
 # - elements in ascending order
 # - elements of BREAK_DEG >= 0
 # - elements of BREAK_FAN >= 0 and <= 100
-BREAK_DEG = [ 0, 35, 38, 40] # degrees celcius
-BREAK_FAN = [40, 70, 80, 100] # fan speed percentage
+BREAK_DEG = [ 0, 36,  40] # degrees celcius
+BREAK_FAN = [50, 70, 100] # fan speed percentage
 
 assert len(BREAK_DEG) == len(BREAK_FAN)
 
